@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Compare Deed Poll Services in the UK (2025 Guide)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Compare the best deed poll services in the UK. See prices, turnaround times, what’s included, and when a free DIY deed poll is enough."
+  />
+  <style>
+    /* ========== RESET & BASE ========== */
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, sans-serif;
+      line-height: 1.6;
+      color: #111827;
+      background: #f3f4f6;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    /* ========== HEADER / NAV ========== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(12px);
+      background: rgba(15, 23, 42, 0.88);
+      color: #e5e7eb;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.3);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.6rem 0;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.9rem;
+    }
+    .nav-links a {
+      opacity: 0.85;
+      padding: 0.35rem 0.65rem;
+      border-radius: 999px;
+      transition: background 0.12s ease, opacity 0.12s ease;
+    }
+    .nav-links a:hover {
+      background: rgba(148, 163, 184, 0.2);
+      opacity: 1;
+    }
+
+    @media (max-width: 720px) {
+      .nav-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.35rem;
+      }
+      .nav-links {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+    }
+
+    /* ========== HERO ========== */
+    .hero {
+      background: radial-gradient(circle at top left, #e0f2fe, #f9fafb 40%, #f3f4f6);
+      padding: 2.5rem 0 2rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 1.75rem;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+    .hero-eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.8rem;
+      color: #0f766e;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+    .hero-title {
+      font-size: clamp(1.9rem, 3vw + 1rem, 2.4rem);
+      font-weight: 800;
+      color: #0f172a;
+      margin: 0 0 0.5rem;
+    }
+    .hero-subtitle {
+      margin: 0 0 1rem;
+      color: #4b5563;
+      max-width: 32rem;
+    }
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.2rem;
+    }
+    .badge {
+      font-size: 0.8rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      background: #ecfeff;
+      color: #0f766e;
+      border: 1px solid #a5f3fc;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    .badge span {
+      font-size: 0.85rem;
+    }
+
+    .hero-ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-bottom: 0.6rem;
+    }
+    .btn-primary,
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.65rem 1.25rem;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.08s ease, box-shadow 0.1s ease, background 0.1s ease;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .btn-primary {
+      background: #0f766e;
+      color: #ecfeff;
+      box-shadow: 0 10px 25px rgba(15, 118, 110, 0.4);
+    }
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 16px 32px rgba(15, 118, 110, 0.5);
+    }
+    .btn-secondary {
+      background: #e5e7eb;
+      color: #111827;
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.15);
+    }
+    .btn-secondary:hover {
+      transform: translateY(-1px);
+      background: #d1d5db;
+      box-shadow: 0 12px 24px rgba(15, 23, 42, 0.2);
+    }
+    .hero-note {
+      font-size: 0.82rem;
+      color: #6b7280;
+    }
+
+    .hero-card {
+      background: #ffffff;
+      border-radius: 1rem;
+      padding: 1.25rem 1.3rem;
+      box-shadow: 0 14px 40px rgba(15, 23, 42, 0.16);
+      border: 1px solid #e5e7eb;
+    }
+    .hero-card-title {
+      margin: 0 0 0.4rem;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #111827;
+    }
+    .hero-card-text {
+      font-size: 0.9rem;
+      color: #6b7280;
+      margin-bottom: 0.6rem;
+    }
+    .hero-mini-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      font-size: 0.85rem;
+      color: #4b5563;
+    }
+    .hero-mini-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.4rem;
+      margin-bottom: 0.35rem;
+    }
+    .hero-dot {
+      margin-top: 0.35rem;
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: #0f766e;
+      flex-shrink: 0;
+    }
+
+    /* ========== SECTION WRAPPERS ========== */
+    .section {
+      padding: 2.25rem 0 2.5rem;
+    }
+    .section-header {
+      margin-bottom: 1.2rem;
+    }
+    .section-kicker {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #6b7280;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .section-title {
+      margin: 0 0 0.4rem;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #111827;
+    }
+    .section-subtitle {
+      margin: 0;
+      color: #4b5563;
+      max-width: 40rem;
+      font-size: 0.95rem;
+    }
+
+    /* ========== COMPARISON TABLE ========== */
+    .comparison-card {
+      background: #ffffff;
+      border-radius: 1rem;
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
+      border: 1px solid #e5e7eb;
+      padding: 1.25rem 1.25rem 1.1rem;
+      overflow-x: auto;
+    }
+    .comparison-note {
+      font-size: 0.8rem;
+      color: #6b7280;
+      margin-bottom: 0.5rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      min-width: 640px;
+    }
+    thead {
+      background: #f9fafb;
+    }
+    th, td {
+      padding: 0.55rem 0.5rem;
+      text-align: left;
+      border-bottom: 1px solid #e5e7eb;
+      vertical-align: top;
+    }
+    th {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: #6b7280;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    .provider-name {
+      font-weight: 600;
+    }
+    .badge-best {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.15rem 0.45rem;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: #ecfdf5;
+      color: #047857;
+      margin-left: 0.25rem;
+    }
+    .col-highlight {
+      background: linear-gradient(to right, #ecfdf5, #ffffff);
+    }
+    .rating-stars {
+      color: #f59e0b;
+      font-size: 0.85rem;
+      margin-bottom: 0.1rem;
+    }
+    .rating-text {
+      font-size: 0.75rem;
+      color: #4b5563;
+    }
+    .table-cta {
+      font-size: 0.8rem;
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      border: 1px solid #0f766e;
+      color: #0f766e;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-weight: 600;
+      background: #ecfdf5;
+      white-space: nowrap;
+    }
+    .table-cta:hover {
+      background: #d1fae5;
+    }
+
+    /* ========== "HOW WE COMPARE" GRID ========== */
+    .criteria-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.4rem;
+    }
+    @media (max-width: 900px) {
+      .criteria-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 640px) {
+      .criteria-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+    .criteria-card {
+      background: #ffffff;
+      border-radius: 0.85rem;
+      padding: 0.9rem 1rem;
+      border: 1px solid #e5e7eb;
+      font-size: 0.88rem;
+    }
+    .criteria-title {
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+      color: #111827;
+    }
+    .criteria-text {
+      color: #4b5563;
+      margin: 0;
+      font-size: 0.86rem;
+    }
+
+    /* ========== FREE VS PAID ========== */
+    .two-column {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr);
+      gap: 1.25rem;
+    }
+    @media (max-width: 900px) {
+      .two-column {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 0.95rem;
+      padding: 1.1rem 1.2rem;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+      font-size: 0.9rem;
+    }
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 0.35rem;
+      font-size: 1rem;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.18rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      margin-bottom: 0.3rem;
+      font-weight: 500;
+    }
+    .pill-free {
+      background: #eff6ff;
+      color: #1d4ed8;
+    }
+    .pill-paid {
+      background: #ecfdf5;
+      color: #047857;
+    }
+    .list-plain {
+      margin: 0.4rem 0;
+      padding-left: 1.1rem;
+      font-size: 0.88rem;
+      color: #4b5563;
+    }
+    .list-plain li {
+      margin-bottom: 0.25rem;
+    }
+    .card-footer-note {
+      font-size: 0.8rem;
+      color: #6b7280;
+      margin-top: 0.4rem;
+    }
+
+    /* ========== FAQ ========== */
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    @media (max-width: 900px) {
+      .faq-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+    .faq-item {
+      background: #ffffff;
+      border-radius: 0.9rem;
+      padding: 0.9rem 1rem;
+      border: 1px solid #e5e7eb;
+      font-size: 0.9rem;
+    }
+    .faq-q {
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+    .faq-a {
+      color: #4b5563;
+      margin: 0;
+      font-size: 0.88rem;
+    }
+
+    /* ========== ABOUT + FOOTER ========== */
+    .about-card {
+      background: #f9fafb;
+      border-radius: 0.9rem;
+      padding: 1.1rem 1.2rem;
+      border: 1px solid #e5e7eb;
+      font-size: 0.9rem;
+      color: #4b5563;
+    }
+    .about-card h3 {
+      margin-top: 0;
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+      color: #111827;
+    }
+    .site-footer {
+      border-top: 1px solid #e5e7eb;
+      padding: 1.2rem 0 1.5rem;
+      font-size: 0.8rem;
+      color: #6b7280;
+      background: #f9fafb;
+    }
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: space-between;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <div class="logo">Compare Deed Poll Services</div>
+      <nav class="nav-links">
+        <a href="#compare">Comparison</a>
+        <a href="#how-we-compare">How we compare</a>
+        <a href="#free-vs-paid">Free vs paid</a>
+        <a href="#faq">FAQ</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-eyebrow">Independent overview</div>
+        <h1 class="hero-title">
+          Compare Deed Poll Services in the UK (2025)
+        </h1>
+        <p class="hero-subtitle">
+          Not all deed poll providers are equal. See how leading services compare
+          on price, turnaround time, and acceptance – and when a free DIY deed poll
+          is enough.
+        </p>
+        <div class="hero-badges">
+          <div class="badge"><span>✅</span><span>Focus on UK adult name changes</span></div>
+          <div class="badge"><span>📄</span><span>Unenrolled deed polls only</span></div>
+          <div class="badge"><span>🔍</span><span>Transparent criteria</span></div>
+        </div>
+        <div class="hero-ctas">
+          <a class="btn-primary" href="#compare">View comparison</a>
+          <a
+            class="btn-secondary"
+            href="https://www.ukdeedpolloffice.org/"
+            target="_blank"
+            rel="noopener"
+          >Visit UK Deed Poll Office</a>
+        </div>
+        <p class="hero-note">
+          We are not a government website. We review private UK deed poll services
+          and include free DIY options where appropriate.
+        </p>
+      </div>
+
+      <aside class="hero-card">
+        <h2 class="hero-card-title">Quick recommendation</h2>
+        <p class="hero-card-text">
+          For most straightforward adult name changes, we prefer a specialist provider
+          that combines legally robust wording, multiple copies, and fast processing.
+        </p>
+        <ul class="hero-mini-list">
+          <li>
+            <span class="hero-dot"></span>
+            <span><strong>Best overall:</strong> UK Deed Poll Office – strong acceptance track
+              record and good support.</span>
+          </li>
+          <li>
+            <span class="hero-dot"></span>
+            <span><strong>Free option:</strong> DIY deed poll – fine if you’re confident and
+              happy to follow guidance yourself.</span>
+          </li>
+          <li>
+            <span class="hero-dot"></span>
+            <span>For unusual names, children, or complex situations, we suggest using a
+              paid service with clear documentation.</span>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- COMPARISON SECTION -->
+  <section id="compare" class="section">
+    <div class="container">
+      <header class="section-header">
+        <div class="section-kicker">Comparison</div>
+        <h2 class="section-title">Side-by-side overview of deed poll providers</h2>
+        <p class="section-subtitle">
+          The table below shows how a selection of UK deed poll providers and a DIY
+          option compare. Information here is general; always check the provider’s
+          own website for the latest details.
+        </p>
+      </header>
+
+      <div class="comparison-card">
+        <p class="comparison-note">
+          You can scroll horizontally on smaller screens to see the full table.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Provider</th>
+              <th>Typical price</th>
+              <th>Processing & delivery</th>
+              <th>What’s included</th>
+              <th>Passport/DVLA acceptance</th>
+              <th>Overall impression</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- UK DEED POLL OFFICE (highlighted row) -->
+            <tr class="col-highlight">
+              <td>
+                <div class="provider-name">
+                  UK Deed Poll Office
+                  <span class="badge-best">Best overall</span>
+                </div>
+              </td>
+              <td>£XX (adult deed poll)</td>
+              <td>
+                Same-day processing in most cases, documents posted by 1st class
+                post or similar.
+              </td>
+              <td>
+                Multiple original deed polls, clear guidance, support if documents are
+                queried by organisations.
+              </td>
+              <td>
+                <div class="rating-stars">★★★★★</div>
+                <div class="rating-text">
+                  Widely accepted when correctly signed and witnessed.
+                </div>
+              </td>
+              <td>
+                Reliable wording, good volume of copies, clear positioning as a specialist
+                service.
+              </td>
+              <td>
+                <a
+                  class="table-cta"
+                  href="https://www.ukdeedpolloffice.org/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Visit UK Deed Poll Office →
+                </a>
+              </td>
+            </tr>
+
+            <!-- OTHER PROVIDER 1 -->
+            <tr>
+              <td><div class="provider-name">Provider A</div></td>
+              <td>£XX</td>
+              <td>
+                1–2 working days processing; basic postal delivery. Some upsells for
+                duplicate copies.
+              </td>
+              <td>
+                One main deed poll, option to purchase additional copies, simple
+                instructions.
+              </td>
+              <td>
+                <div class="rating-stars">★★★★☆</div>
+                <div class="rating-text">
+                  Generally accepted when correctly executed.
+                </div>
+              </td>
+              <td>
+                Solid budget option, but fewer included copies and less guidance.
+              </td>
+              <td>
+                <a class="table-cta" href="#" target="_blank" rel="noopener">
+                  Visit website →
+                </a>
+              </td>
+            </tr>
+
+            <!-- OTHER PROVIDER 2 -->
+            <tr>
+              <td><div class="provider-name">Provider B</div></td>
+              <td>£XX</td>
+              <td>
+                Standard processing, sometimes slower dispatch at busy times. Limited
+                information on site.
+              </td>
+              <td>
+                Deed poll document, basic notes. Duplicate copies may cost extra or
+                not be clearly stated.
+              </td>
+              <td>
+                <div class="rating-stars">★★★☆☆</div>
+                <div class="rating-text">
+                  Typically accepted, but wording and support less clearly presented.
+                </div>
+              </td>
+              <td>
+                Feels more generic; fine for simple cases, but transparency could be
+                better.
+              </td>
+              <td>
+                <a class="table-cta" href="#" target="_blank" rel="noopener">
+                  Visit website →
+                </a>
+              </td>
+            </tr>
+
+            <!-- FREE DIY OPTION -->
+            <tr>
+              <td><div class="provider-name">DIY free deed poll</div></td>
+              <td>£0</td>
+              <td>
+                Instant – you draft and print your own deed poll using a template or
+                generator.
+              </td>
+              <td>
+                Template only. No physical copies, no checking service, and no
+                one-to-one support.
+              </td>
+              <td>
+                <div class="rating-stars">★★★☆☆</div>
+                <div class="rating-text">
+                  Often accepted if drafted properly and witnessed correctly.
+                </div>
+              </td>
+              <td>
+                Best suited to confident adults with straightforward situations who are
+                happy to research the requirements.
+              </td>
+              <td>
+                <a
+                  class="table-cta"
+                  href="https://easyfreedeedpoll.online/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Use free generator →
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HOW WE COMPARE -->
+  <section id="how-we-compare" class="section">
+    <div class="container">
+      <header class="section-header">
+        <div class="section-kicker">Methodology</div>
+        <h2 class="section-title">How we compare deed poll providers</h2>
+        <p class="section-subtitle">
+          We look at several practical factors that matter once you start changing your
+          name with banks, HM Passport Office, DVLA, and other organisations.
+        </p>
+      </header>
+
+      <div class="criteria-grid">
+        <article class="criteria-card">
+          <div class="criteria-title">Document wording</div>
+          <p class="criteria-text">
+            We prefer providers that use clear, well-structured wording and avoid
+            unnecessary complexity, while still meeting expectations of major
+            organisations.
+          </p>
+        </article>
+
+        <article class="criteria-card">
+          <div class="criteria-title">Acceptance track record</div>
+          <p class="criteria-text">
+            A key consideration is whether customers report consistent acceptance of
+            their deed poll by HM Passport Office, DVLA, banks and other institutions.
+          </p>
+        </article>
+
+        <article class="criteria-card">
+          <div class="criteria-title">Included copies</div>
+          <p class="criteria-text">
+            You will often need to send original or duplicate copies to different
+            organisations. We favour services that include multiple copies as standard.
+          </p>
+        </article>
+
+        <article class="criteria-card">
+          <div class="criteria-title">Support & guidance</div>
+          <p class="criteria-text">
+            Clear instructions on signing, witnessing and notifying organisations
+            greatly reduce the risk of delays or rejections.
+          </p>
+        </article>
+
+        <article class="criteria-card">
+          <div class="criteria-title">Transparency</div>
+          <p class="criteria-text">
+            We look for providers who are upfront about pricing, what is included,
+            and what they can and cannot do (for example, they are not a court or
+            government department).
+          </p>
+        </article>
+
+        <article class="criteria-card">
+          <div class="criteria-title">Value for money</div>
+          <p class="criteria-text">
+            Cheapest is not always best. We balance price against copies, service,
+            support and overall clarity for customers.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FREE VS PAID -->
+  <section id="free-vs-paid" class="section">
+    <div class="container">
+      <header class="section-header">
+        <div class="section-kicker">Free vs paid</div>
+        <h2 class="section-title">Should you use a free DIY deed poll or a paid service?</h2>
+        <p class="section-subtitle">
+          Both routes can work. The right choice depends on how complex your situation
+          is and how confident you feel about drafting and checking documents yourself.
+        </p>
+      </header>
+
+      <div class="two-column">
+        <article class="card">
+          <span class="pill pill-free">Free DIY option</span>
+          <h3>When a free deed poll can be enough</h3>
+          <p>
+            If you are an adult, changing your name for straightforward personal reasons,
+            and you are comfortable following written guidance, a DIY deed poll
+            can be a perfectly workable solution.
+          </p>
+          <ul class="list-plain">
+            <li>You are over 18 and a British or settled resident.</li>
+            <li>No disputes, court orders or safety concerns.</li>
+            <li>You are changing your name to something simple and sensible.</li>
+            <li>You are happy to print, sign and store documents yourself.</li>
+          </ul>
+          <p class="card-footer-note">
+            You can generate a basic DIY deed poll for free at:
+            <a href="https://easyfreedeedpoll.online/" target="_blank" rel="noopener">
+              easyfreedeedpoll.online
+            </a>.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="pill pill-paid">Paid specialist service</span>
+          <h3>When a professional deed poll service makes sense</h3>
+          <p>
+            If you prefer a professionally prepared document and clearer support, or your
+            situation is more sensitive, a specialist provider is usually the safer choice.
+          </p>
+          <ul class="list-plain">
+            <li>You want multiple original copies and clear instructions.</li>
+            <li>You are changing a child’s name or dealing with complex family situations.</li>
+            <li>You are worried about how organisations will react or what to send them.</li>
+            <li>You would like a clear point of contact if questions arise.</li>
+          </ul>
+          <p class="card-footer-note">
+            For a well-established service with good documentation and multiple copies,
+            we recommend:
+            <a href="https://www.ukdeedpolloffice.org/" target="_blank" rel="noopener">
+              UK Deed Poll Office
+            </a>.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <header class="section-header">
+        <div class="section-kicker">Questions</div>
+        <h2 class="section-title">Frequently asked questions</h2>
+        <p class="section-subtitle">
+          These answers are general guidance only. Always check the specific provider’s
+          terms and documentation before placing an order.
+        </p>
+      </header>
+
+      <div class="faq-grid">
+        <article class="faq-item">
+          <h3 class="faq-q">Is a deed poll from a private provider “official”?</h3>
+          <p class="faq-a">
+            In the UK, you do not need a court order or government-issued document to
+            change your name for most everyday purposes. A properly worded, signed and
+            witnessed deed poll from a private provider is usually sufficient for
+            organisations such as HM Passport Office and DVLA, provided their other
+            criteria are met.
+          </p>
+        </article>
+
+        <article class="faq-item">
+          <h3 class="faq-q">Do I need an “enrolled” deed poll?</h3>
+          <p class="faq-a">
+            Most people do not. Enrolling a deed poll in the Royal Courts of Justice is
+            a separate, more formal process that makes your name change a matter of
+            public record. Many adults are content with an unenrolled deed poll,
+            especially when changing their name for ordinary personal reasons.
+          </p>
+        </article>
+
+        <article class="faq-item">
+          <h3 class="faq-q">Will every organisation accept the same deed poll?</h3>
+          <p class="faq-a">
+            Policies differ slightly. Broadly, if the deed poll is correctly worded and
+            executed, and you provide any other documents they ask for (such as ID and
+            proof of address), it should usually be accepted. Some organisations may
+            ask for additional information in unusual or complex cases.
+          </p>
+        </article>
+
+        <article class="faq-item">
+          <h3 class="faq-q">Can I change my child’s name with any of these services?</h3>
+          <p class="faq-a">
+            Many providers offer deed polls for children, but additional rules apply,
+            especially around parental responsibility and consent. If there is
+            disagreement between parents or court orders in place, you should obtain
+            specialist advice before proceeding.
+          </p>
+        </article>
+
+        <article class="faq-item">
+          <h3 class="faq-q">Is a free DIY deed poll less valid than a paid one?</h3>
+          <p class="faq-a">
+            The legal effect comes from the wording, your intent, and the way it is
+            signed and witnessed – not from the price. However, a paid provider may
+            give you clearer documentation, more copies and support if you are unsure
+            how to use the deed poll with different organisations.
+          </p>
+        </article>
+
+        <article class="faq-item">
+          <h3 class="faq-q">Are you affiliated with any provider you list?</h3>
+          <p class="faq-a">
+            This website is independent content. We may highlight or link to providers
+            we believe offer a clear and useful service, including specialist deed poll
+            services and free DIY options. Where relevant, we explain why one service
+            might be better suited to certain situations than another.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-card">
+        <h3>About this comparison site</h3>
+        <p>
+          This website is designed to give a simple, practical overview of different
+          ways to change your name by deed poll in the UK. It is not a government or
+          court website, and it does not provide personalised legal advice.
+        </p>
+        <p>
+          Our aim is to help you understand the trade-offs between free DIY templates
+          and paid specialist services, so you can choose the route that fits your
+          circumstances and risk-tolerance. For most straightforward adult name
+          changes, a well-established deed poll provider with clear documentation
+          offers a good balance of convenience and reassurance.
+        </p>
+        <p>
+          If you are in any doubt about which option to choose – especially where
+          children, court orders, immigration status or safety concerns are involved –
+          you should seek individual legal or professional advice.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        © <span id="year"></span> Compare Deed Poll Services. All rights reserved.
+      </div>
+      <div>
+        This site links to third-party providers, including
+        <a href="https://www.ukdeedpolloffice.org/" target="_blank" rel="noopener">
+          UK Deed Poll Office
+        </a>
+        and free DIY resources.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
